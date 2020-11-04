@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[datascript "1.0.0"]]
+
+ :builds
+ {:load-edn
+  {:target :node-script
+   :main load-edn/main
+   :output-to "out/load-edn.js"}}}

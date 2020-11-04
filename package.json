@@ -1,0 +1,12 @@
+{
+  "name": "read-roam-backup",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "shadow-cljs compile load-edn"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.11.6"
+  },
+  "dependencies": {}
+}
